@@ -1,0 +1,8 @@
+//Disclaimer: I did not design the robot, I bought the chassis kit and assembled it.//
+
+For the description of the robot visit: http://www.popularmechanics.com/technology/engineering/robots/build-your-first-robot
+
+-This robot is control by the Arduino Uno. 
+-It uses two continuos servos for movement. 
+-To detect if an object is in front, it will send out a pulse of infrared using an infrared LED and detect the bounce back of the wave using an IR detector. The time between sending the wave and detecting it is use to calculate the distance. 
+-When detect an object, it will reverse and turn right.
